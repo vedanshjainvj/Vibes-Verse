@@ -1,10 +1,15 @@
+// Imports from react
 import { useState,useRef } from 'react';
+// Imports from react-bootstrap
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Footer from './Footer';
+// Toastify is imported to generate toasts
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
-  import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css';
+// Emailjs is used to facilitate Email feature
+import emailjs from '@emailjs/browser';
+// Importing components from folder structure
+import Footer from './Footer';
 
 function Contact() {
 

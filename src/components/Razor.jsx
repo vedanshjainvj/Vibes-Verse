@@ -1,6 +1,7 @@
-import React from 'react'
-import { useState } from 'react';
+// Imports of react
+import React,{ useState } from 'react'
 
+// Function for razor-pay integration
 const Razor = () => {
     const [amount, setamount] = useState(100);
 
@@ -20,9 +21,9 @@ const Razor = () => {
             alert(response.razorpay_payment_id);
           },
           prefill: {
-            name:"Velmurugan",
-            email:"mvel1620r@gmail.com",
-            contact:"7904425033"
+            name:"Vedansh Jain",
+            email:"vedansh.code@gmail.com",
+            contact:"7415889987"
           },
           notes:{
             address:"Razorpay Corporate office"

@@ -1,4 +1,6 @@
+// Imports of react
 import React from 'react'
+// Importing components from folder structure
 import Footer from './Footer'
 
 const Internships = () => {
@@ -9,8 +11,6 @@ const Internships = () => {
     </div>
     <Footer></Footer>
   </>
-  
-    
   )
 }
 

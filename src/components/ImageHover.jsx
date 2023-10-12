@@ -1,4 +1,6 @@
+// Imports of react
 import React, { useEffect } from "react";
+// Importing Gsap for hover effect
 import gsap from "gsap";
 
 const Element = ({ imgSrc, title, year }) => {
@@ -14,29 +16,30 @@ const Element = ({ imgSrc, title, year }) => {
 const ImageHover = () => {
   const data = [
     {
-      imgSrc: "https://i.etsystatic.com/27232002/r/il/1d1432/3591316195/il_fullxfull.3591316195_55if.jpg",
+      imgSrc: "https://i.ibb.co/LpQwLHW/mt01.png",
       title: "MOTIVATION",
       year: "STAY MOTIVATED",
     },
     {
-      imgSrc: "https://i.etsystatic.com/27232002/r/il/1d1432/3591316195/il_fullxfull.3591316195_55if.jpg",
+      imgSrc: "https://i.ibb.co/h8QwhN9/fc01.png",
       title: "FACTS",
       year: "AMAZING FACTS",
     },
     {
-      imgSrc: "https://i.etsystatic.com/27232002/r/il/1d1432/3591316195/il_fullxfull.3591316195_55if.jpg",
+      imgSrc: "https://i.ibb.co/n6WhmPg/q01.png",
       title: "QUOTES",
       year: "FAMOUS QUOTES",
     },
     {
-      imgSrc: "https://i.etsystatic.com/27232002/r/il/1d1432/3591316195/il_fullxfull.3591316195_55if.jpg",
+      imgSrc: "https://i.ibb.co/jwYbBn7/gk01.png",
       title: "DAILY GK",
       year: "ABSOLUTE KNOWLEDGE",
     },
     {
-      imgSrc: "https://i.etsystatic.com/27232002/r/il/1d1432/3591316195/il_fullxfull.3591316195_55if.jpg",
+      imgSrc: "https://i.ibb.co/xSMddMy/C1.png",
       title: "SHORT STORIES",
       year: "MORAL LESSONS",
+      
     },
   ];
 

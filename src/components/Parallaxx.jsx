@@ -1,19 +1,14 @@
+// Imports of react
 import React from 'react';
+// Importing react parallax for parallax effect
 import { Parallax } from 'react-parallax';
-import videogif from '../assets/videogif.gif';
-import {motion} from 'framer-motion'
 
 const Parallaxx = () => {
   return (
-    <div className='flex items-center justify-center my-16 '>
-      {/* <Parallax strength={900} bgImage="https://media.tenor.com/KFoX5feP-D4AAAAC/smoke-red-screen.gif" className="parallax-container relative h-[50vh] w-1/2 flex justify-center items-center">
+    <div className='flex items-center justify-center my-16'>
+      <Parallax  strength={600} bgImage="https://64.media.tumblr.com/f393eddc42dc756924038293abcbe54c/a55e4b333cef2d05-e1/s1280x1920/d168644037b0de4f0647d2aad280faf65a415768.gif" className="parallax-container relative h-[80vh] w-3/4 flex justify-center items-center par-box">
         <div className="content">
-          <div className="text-content">Play</div>
-        </div>
-      </Parallax> */}
-      <Parallax  strength={600} bgImage="https://i.pinimg.com/originals/00/f7/95/00f795b7d97bf213382e87252f13ce11.gif" className="parallax-container relative h-[80vh] w-3/4 flex justify-center items-center par-box">
-        <div className="content">
-          <div className="text-content">Play</div>
+          <div className="text-6xl font-extrabold text-op">FEEL THE VIBES !!!</div>
         </div>
       </Parallax>
     </div>

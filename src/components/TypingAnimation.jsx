@@ -1,4 +1,6 @@
+// Imports of react
 import React, { useEffect, useRef } from 'react';
+// Importing Types.js for typing effects
 import Typed from 'typed.js';
 
 const TypingAnimation = () => {

@@ -1,5 +1,7 @@
+// Imports for react
 import React, { useEffect, useState } from 'react';
 
+// This is custom scrollbar for animated scroll-view
 const CustomScroll = () => {
   const [progressHeight, setProgressHeight] = useState(0);
 

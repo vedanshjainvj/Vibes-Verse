@@ -1,7 +1,6 @@
 import React from "react";
 import AnimatedCursor from "react-animated-cursor"
 
-
 export default function AnimateCursor() {
   return (
       <AnimatedCursor innerSize={15}

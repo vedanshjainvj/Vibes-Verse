@@ -1,11 +1,7 @@
+/* Importing Tailwind Css */
 @tailwind6 base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: Hamara Font;
-  src: url(./assets/Zuume-ExtraBold.ttf);
-}
 
 * {
   padding: 0;
@@ -22,19 +18,14 @@ html {
   scroll-behavior: smooth;
 }
 .loginbtn {
-  color: white;
   background-image: url(https://i.pinimg.com/236x/e9/70/5f/e9705f250c84f07319fb2067f4839b72.jpg);
   background-repeat: no-repeat;
   border-radius: .5vw;
   padding: .5vw 1vw;
-  cursor: pointer;
-  border: none;
   border: 0.2vw solid rgb(255, 68, 0);
-  font-size: 1.1vw;
   font-weight: 600;
 }
 .left-hero h1{
-  font-size: 11vw;
   font-weight: 900;
   color: transparent;
   -webkit-background-clip: text;
@@ -42,28 +33,15 @@ html {
   background-repeat: no-repeat;
   background-position: right;
 }
-.left-hero p {
-  font-size: 1.3vw;
-  color: white;
-  width: 31vw;
-}
-.btn {
-  display: flex;
-  align-items: center;
-}
 .btn button {
-  padding: 0.8vw 1.5vw;
-  font-size: 1.1vw;
   font-weight: 500;
   border: none;
   border-radius: 10px;
-  color: white;
   background-image: url(https://i.pinimg.com/236x/ce/65/81/ce65817cd661a54f5564e6a0bf7b4d1a.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  cursor: pointer;
   border: 0.2vw solid rgb(255, 68, 0);
 }
+/* Css for custom scroll-bar */
 #scrollpath{
   position: fixed;
   top: 0; 
@@ -130,17 +108,6 @@ html {
   position: relative; /* Ensure the content is positioned relative to the container */
   z-index: 1; /* Make sure the content is above the parallax background */
 }
-.text-content {
-  font-size: 2rem;
-  color: white;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  color: white;
-}
 .content-box {
   display: flex;
   flex-direction: column;
@@ -156,7 +123,6 @@ html {
   box-shadow: 0px 10px 10px -1px rgba(255, 0, 0, 0.75);
 }
 .par-box {
-  /* border: 2px solid red; */
   box-shadow: 0px 30px 30px -1px rgba(255, 0, 0, 0.904);
 }
 .swag-box {
@@ -236,7 +202,7 @@ html {
 }
 #secondPage{
   background-color: #000000;
-  width: 90%;
+  width: 85%;
   overflow: hidden;
 }
 
@@ -270,7 +236,7 @@ html {
   opacity: 0;
   pointer-events: none;
   height: 180%;
-  /* z-index: 999; */
+  z-index: 999;
   position: absolute;
   transform: translate(-50%, -50%);   
 }

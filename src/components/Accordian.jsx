@@ -12,7 +12,6 @@ const Accordian = () => {
   return (
     <>
     <h1 className='text-center text-[4vw] mb-14'>Frequently <span className='span-feedback text-[4vw]'> Asked</span> Questions</h1>
-   
     <Accordion className='p-[7vw] mt-14 pt-0' allowMultiple>
       <AccordionItem>
         <h2>

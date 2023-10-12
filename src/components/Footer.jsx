@@ -1,3 +1,4 @@
+// imports for react
 import React from 'react';
 
 function Footer() {
