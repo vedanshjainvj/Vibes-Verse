@@ -240,3 +240,8 @@ html {
   position: absolute;
   transform: translate(-50%, -50%);   
 }
+.contact-form {
+  background-image: url(https://i.ibb.co/f05rfvd/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

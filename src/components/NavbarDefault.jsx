@@ -25,7 +25,7 @@ function NavbarDefault() { // Code for responsive Navbar
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link className="text-white navlink" to="/">
+        <Link className="text-white navlink text-xl" to="/">
           Home
         </Link>
       </Typography>
@@ -33,7 +33,7 @@ function NavbarDefault() { // Code for responsive Navbar
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-xl"
       >
         <Link className="text-white navlink" to="/about">
           About
@@ -43,7 +43,7 @@ function NavbarDefault() { // Code for responsive Navbar
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-xl"
       >
         <Link className="text-white navlink" to="/internship">
           Internship
@@ -53,7 +53,7 @@ function NavbarDefault() { // Code for responsive Navbar
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-xl"
       >
         <Link className="text-white navlink" to="/swagkit">
           Swag Kit
@@ -63,9 +63,9 @@ function NavbarDefault() { // Code for responsive Navbar
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal text-xl"
       >
-        <Link className="text-white navlink" to="/contact">
+        <Link className="text-white navlink text-xl" to="/contact">
           Contact
         </Link>
       </Typography>
