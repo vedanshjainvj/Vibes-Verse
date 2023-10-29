@@ -85,9 +85,9 @@ const ImageHover = () => {
 
   return (
     <div className=" h-screen w-full flex flex-col justify-center items-center">
-      <h1 className="text-center text-[5vw] mb-10">
-        Our<span className="span-feedback text-[5vw]"> Content</span>
-      </h1>
+      <h1 className="heading-main text-center mb-10 xl:text-[5vw] md:text-[5vw] sm:text-[10vw] sm:max-text-[7vw]">
+              OUR <span className="span-feedback"> Content</span>
+            </h1>
       <div id="secondPage">
         {data.map((item, index) => (
           <Element key={index} {...item} />
@@ -98,3 +98,5 @@ const ImageHover = () => {
 };
 
 export default ImageHover;
+
+

@@ -10,6 +10,7 @@ import Stats from "./Stats";
 import Accordian from "./Accordian";
 import ImageHover from "./ImageHover";
 import Herogif from "../assets/herogiffy.gif";
+import Internstats from "./Internstats";
 
 const Hero = () => {
   return (
@@ -35,7 +36,9 @@ const Hero = () => {
             Thrive To Create Content That Resonates With Our Audience.
           </p>
           <div className="btn flex items-center">
-            <button className="py-[0.8vw] px-[1.5vw] text-lg text-white">Follow us</button>
+            <button className="py-[0.8vw] px-[1.5vw] text-lg text-white">
+              Follow us
+            </button>
             <a href="https://www.instagram.com/">
               <img
                 src="https://img.freepik.com/premium-vector/neon-instagram-logo-vector_742443-26.jpg"
@@ -53,7 +56,9 @@ const Hero = () => {
           <img className="w-[80vh] opacity-90 vibesimg" src={Herogif}></img>
         </motion.div>
       </div>
+
       <ImageHover></ImageHover>
+      <Internstats></Internstats>
       <Stats></Stats>
       <Parallaxx></Parallaxx>
       <CarouselSlider></CarouselSlider>
