@@ -3,8 +3,7 @@ import React from "react";
 // Importing Framer Motion Library for animations
 import { motion } from "framer-motion";
 // Importing components from folder structure
-import CarouselSlider from "./CarouselSlider";
-import Parallaxx from "./Parallaxx";
+import Apps from "./Apps";
 import Footer from "./Footer";
 import Stats from "./Stats";
 import Accordian from "./Accordian";
@@ -60,8 +59,7 @@ const Hero = () => {
       <ImageHover></ImageHover>
       <Internstats></Internstats>
       <Stats></Stats>
-      <Parallaxx></Parallaxx>
-      <CarouselSlider></CarouselSlider>
+      <Apps></Apps>
       <Accordian></Accordian>
       <Footer></Footer>
     </>

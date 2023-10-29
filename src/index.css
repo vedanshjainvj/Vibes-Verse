@@ -256,3 +256,9 @@ html {
   font-size: 9vw;
   }
 }
+.appbtn{
+    background: linear-gradient(to right, rgb(245, 62, 62),rgb(153, 1, 1));
+}
+.ourapp {
+  background: linear-gradient(to right, black,rgb(113, 0, 0));
+}
